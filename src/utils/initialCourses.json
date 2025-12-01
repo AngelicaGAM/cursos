@@ -1,0 +1,56 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "React",
+      "description": "React te permite construir interfaces de usuario a partir de piezas individuales llamadas componentes. Crea tus propios componentes de React",
+      "instructor": "Jordan Walke",
+      "level": "Intermedio",
+      "category": "Desarrollo Web",
+      "startDate": "2026-01-23",
+      "duration": "12 horas",
+      "isFavorite": false
+    },
+    {
+      "id": 2,
+      "title": "NodeJS",
+      "description": "Node.js lets developers use JavaScript to write command line tools and server-side scripting.",
+      "instructor": "Ryan Dahl",
+      "level": "Principiante",
+      "category": "Desarrollo Web",
+      "startDate": "2025-12-15",
+      "duration": "16 horas",
+      "isFavorite": true
+    },
+    {
+      "id": 3,
+      "title": "Diseño UX/UI",
+      "description": "Técnicas modernas y herramientas para el diseño de interfaces de usuario centrado en la experiencia (UX).",
+      "instructor": "Sofía ",
+      "level": "Avanzado",
+      "category": "E-commerce",
+      "startDate": "2026-01-20",
+      "duration": "10 horas",
+      "isFavorite": false
+    },
+    {
+      "id": 4,
+      "title": "Diseña tu propio sitio",
+      "description": "Aprende cómo crear un curso en línea que funcione",
+      "instructor": "Midudev",
+      "level": "Avanzado",
+      "category": "Diseño Web",
+      "startDate": "2026-03-01",
+      "duration": "24 horas",
+      "isFavorite": false
+    }
+  ],
+  "levels": ["Principiante", "Intermedio", "Avanzado"],
+  "categoty": [
+    "Desarrollo Web",
+    "Diseño Web",
+    "Marketing",
+    "E-commerce",
+    "Seguridad"
+  ]
+}

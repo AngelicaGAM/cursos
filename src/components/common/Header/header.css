@@ -1,0 +1,58 @@
+
+#header {
+    z-index: 1030; 
+    background: #004f83 !important;
+    border-bottom: 3px solid #143e6b; 
+}
+.navbar-logo {
+    height: 40px; 
+    transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.05);
+}
+
+
+.menu-seccions .nav-link {
+    color: #f8f9fa !important;
+    font-weight: 500;
+    margin-right: 15px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s, transform 0.1s;
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.menu-seccions .nav-link:hover {
+    color: #fff !important;
+ 
+    transform: translateY(-2px); 
+}
+
+.menu-seccions .nav-link.active {
+    color: #f3f3f3 !important; 
+    background-color: transparent; 
+    border: none; 
+    box-shadow: none; 
+    font-weight: bold;
+}
+
+.menu-seccions .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 5px; 
+    left: 10%; 
+    width: 80%; 
+    height: 3px;
+    background-color: #f7fbff;
+    border-radius: 2px;
+    transition: width 0.3s ease; 
+}
+
+.menu-seccions .nav-link svg {
+    margin-right: 5px;
+    color: inherit; 
+}
